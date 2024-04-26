@@ -1,5 +1,6 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Nav from '../components/Nav'
  
 const poppins = Poppins({
   weight: '200',
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={`${poppins.className} w-full h-full min-h-screen flex items-start justify-start`}>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
