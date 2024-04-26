@@ -1,18 +1,11 @@
 // import Image from "next/image";
-
-import Link from "./components/Link";
+import Nav from '../components/Nav'
 
 export default function Home() {
   return (
-    <div className={'h-full min-h-screen flex items-start justify-start'}>
+    <div className={'w-full h-full min-h-screen flex items-start justify-start'}>
       {/* Left Side */}
-      <nav className={'bg-neutral-800 p-6 text-zinc-200 font-semibold flex flex-col items-center justify-center gap-4'}>
-        <ul className={'flex flex-col items-center justify-center gap-4'}>
-          <Link href={'/'} linkName={'Home'} />
-          <Link href={'/projects'} linkName={'Projects'} />
-          <Link href={'/about'} linkName={'About'} />
-        </ul>
-      </nav>
+      <Nav />
 
       {/* Right Side */}
       <main className={'p-4 pl-6 pr-6'}>
