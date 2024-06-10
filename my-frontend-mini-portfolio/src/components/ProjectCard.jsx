@@ -1,20 +1,27 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
 
-export const ProjectCard = ({href, title, description}) => {
+export const ProjectCard = ({image, href, title, description}) => {
   return (
     <Link
         href={href}
-        className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        className="group rounded-lg border-4 border-[#DF8601] transition-colors text-[#362000]"
         rel="noopener noreferrer"
     >
-        <h2 className={`mb-3 text-2xl font-semibold`}>
-            {title}{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-            </span>
-        </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>{description}</p>
+        <div className="w-full bg-transparent border-4 border-transparent p-2">
+            <Image
+              src={image}
+              width={300}
+              height={150}
+              alt="Picture of the author"
+            />
+        </div>
+
+        <div className="w-full bg-[#DF8601] p-6">
+            <h2 className="mb-3 text-2xl font-semibold">{title}</h2>
+            <p className={`m-0 max-w-[30ch] text-base`}>{description}</p>
+        </div>
     </Link>
   )
 }

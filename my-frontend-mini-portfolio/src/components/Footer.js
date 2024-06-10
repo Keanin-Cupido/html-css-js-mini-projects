@@ -1,10 +1,10 @@
 import React from 'react'
 import LinkItem from './LinkItem'
 
-const Nav = () => {
+const Footer = () => {
   return (
-    <nav className={'bg-[#1D4E89] p-4 pl-4 pr-4 font-bold'}>
-        <div className="container mx-auto flex flex-row items-center justify-between text-sm">
+    <nav className={'bg-[#1D4E89] p-4 pl-4 pr-4 font-bold mt-8'}>
+        <div className="container mx-auto flex flex-row items-center justify-center gap-4 text-sm">
           <p className="font-black tracking-wider text-lg">Mini Dev</p>
           <ul className={'flex flex-row items-center justify-center gap-4 font-bold'}>
               <LinkItem href={'/'} linkName={'Home'} />
@@ -16,4 +16,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Footer;

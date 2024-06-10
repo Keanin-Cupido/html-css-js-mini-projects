@@ -1,14 +1,23 @@
 // import Image from "next/image";
 
 import { ProjectCard } from "@/components/ProjectCard";
+import { projectsData } from '../data/projectsData.js';
 
 export default function Home() {
   return (
-    <div className={''}>
-      <main className={'p-4 pl-6 pr-6'}>
-        <h2 className={'mt-3 mb-6 text-3xl font-bold'}>Mini Frontend Dev Projects</h2>
-        <div className="flex items-start justify-start">
-          <ProjectCard href={'#'} title={'Twitter Clone'} description={'A (frontend-only) clone of the latest version of twitter (X) - Early 2024.'} />
+    <div className="container w-full mx-auto">
+      <main className='w-full pt-4 pb-4'>
+        <p className="text-center text-bold mx-auto mt-12 mb-12 w-full max-w-[400px] rounded-md bg-[#1D4E89] p-6 pl-4 pr-6">
+          A collection of my small web development project I built on my web dev journey.
+        </p>
+        <div className="grid gap-6 grid-cols-4 auto-rows-auto">
+          {
+            projectsData.map((project, id) => {
+              return (
+                  <ProjectCard key={id} image={project.image} href={project.href} title={project.title} description={project.description} />
+              )
+            })
+          }
         </div>
       </main>
     </div>
