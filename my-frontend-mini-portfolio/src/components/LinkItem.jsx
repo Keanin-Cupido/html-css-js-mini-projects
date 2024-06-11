@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const linkStyles = 'text-sm font-medium hover:font-bold'
+const linkStyles = 'hover:text-[#89B3E6]'
 
 const LinkItem = ({linkName, href}) => {
   return (

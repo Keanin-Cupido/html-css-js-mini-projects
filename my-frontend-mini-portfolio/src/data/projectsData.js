@@ -3,37 +3,49 @@ export const projectsData = [
 		image: '',
 		href: "#",
 		title: "Twitter Clone",
-		description: "A (frontend-only) clone of the latest version of twitter (X) - Early 2024."
+		description: "A (frontend-only) clone of the latest version of twitter (X)",
+		date: "11 Jun 2024",
+		tech: ["HTML", "CSS", "JS"],
 	},
 	{
 		image: '',
 		href: "#",
 		title: "Google Clone",
-		description: "A (frontend-only) clone of the latest version of twitter (X) - Early 2024."
+		description: "A (frontend-only) clone of the latest version of twitter (X)",
+		date: "11 Jun 2024",
+		tech: ["HTML", "CSS", "JS"],
 	},
 	{
 		image: '',
 		href: "#",
 		title: "Instagram Clone",
-		description: "A (frontend-only) clone of the latest version of twitter (X) - Early 2024."
+		description: "A (frontend-only) clone of the latest version of twitter (X)",
+		date: "11 Jun 2024",
+		tech: ["HTML", "CSS", "JS"],
 	},
 	{
 		image: '',
 		href: "#",
 		title: "Facebook Clone",
-		description: "A (frontend-only) clone of the latest version of twitter (X) - Early 2024."
+		description: "A (frontend-only) clone of the latest version of twitter (X)",
+		date: "11 Jun 2024",
+		tech: ["HTML", "CSS", "JS"],
 	},
 	{
 		image: '',
 		href: "#",
 		title: "Discord Clone",
-		description: "A (frontend-only) clone of the latest version of twitter (X) - Early 2024."
+		description: "A (frontend-only) clone of the latest version of twitter (X)",
+		date: "11 Jun 2024",
+		tech: ["HTML", "CSS", "JS"],
 	},
 	{
 		image: '',
 		href: "#",
 		title: "Gmail Clone",
-		description: "A (frontend-only) clone of the latest version of twitter (X) - Early 2024."
+		description: "A (frontend-only) clone of the latest version of twitter (X)",
+		date: "11 Jun 2024",
+		tech: ["HTML", "CSS", "JS"],
 	},
 
 ]
