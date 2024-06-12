@@ -5,7 +5,7 @@ export const projectsData = [
 		title: "Twitter Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
-		tech: ["HTML", "CSS", "JS"],
+		tech: ["html", "css", "javascript"],
 	},
 	{
 		image: '',
@@ -13,7 +13,7 @@ export const projectsData = [
 		title: "Google Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
-		tech: ["HTML", "CSS", "JS"],
+		tech: ["html", "css", "javascript"],
 	},
 	{
 		image: '',
@@ -21,7 +21,7 @@ export const projectsData = [
 		title: "Instagram Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
-		tech: ["HTML", "CSS", "JS"],
+		tech: ["html", "css", "javascript"],
 	},
 	{
 		image: '',
@@ -29,7 +29,7 @@ export const projectsData = [
 		title: "Facebook Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
-		tech: ["HTML", "CSS", "JS"],
+		tech: ["html", "css", "javascript"],
 	},
 	{
 		image: '',
@@ -37,7 +37,7 @@ export const projectsData = [
 		title: "Discord Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
-		tech: ["HTML", "CSS", "JS"],
+		tech: ["html", "css", "javascript"],
 	},
 	{
 		image: '',
@@ -45,7 +45,7 @@ export const projectsData = [
 		title: "Gmail Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
-		tech: ["HTML", "CSS", "JS"],
+		tech: ["html", "css", "javascript"],
 	},
 
 ]

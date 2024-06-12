@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
+import { Icon } from '@iconify/react';
 
 export const ProjectCard = ({image, href, title, description, date, tech}) => {
   return (
@@ -32,7 +33,9 @@ export const ProjectCard = ({image, href, title, description, date, tech}) => {
         <div className="absolute right-0 top-0 max-w-fit bg-[#DF8601] p-4 pt-2 pb-2 rounded-sm flex items-center justify-center gap-2">
             {tech.map((tech, id) => {
                     return(
-                        <p key={id} className={`text-center font-normal text-sm text-[white]`}>{tech}</p>
+                        <p key={id} className={`text-center font-normal text-sm text-[white]`}>
+                            <Icon icon={`akar-icons:${tech}-fill`} style={{ fontSize: '1.5em', color: '#362000' }} />
+                        </p>
                     )
                 }
             )}
