@@ -1,7 +1,7 @@
 export const projectsData = [
 	{
 		image: '',
-		href: "#",
+		href: "1",
 		title: "Twitter Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
@@ -9,7 +9,7 @@ export const projectsData = [
 	},
 	{
 		image: '',
-		href: "#",
+		href: "2",
 		title: "Google Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
@@ -17,7 +17,7 @@ export const projectsData = [
 	},
 	{
 		image: '',
-		href: "#",
+		href: "3",
 		title: "Instagram Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
@@ -25,7 +25,7 @@ export const projectsData = [
 	},
 	{
 		image: '',
-		href: "#",
+		href: "4",
 		title: "Facebook Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
@@ -33,7 +33,7 @@ export const projectsData = [
 	},
 	{
 		image: '',
-		href: "#",
+		href: "5",
 		title: "Discord Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",
@@ -41,7 +41,7 @@ export const projectsData = [
 	},
 	{
 		image: '',
-		href: "#",
+		href: "6",
 		title: "Gmail Clone",
 		description: "A (frontend-only) clone of the latest version of twitter (X)",
 		date: "11 Jun 2024",

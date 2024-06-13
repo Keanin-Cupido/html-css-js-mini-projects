@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.className} text-[#DDE9F8] w-full h-full min-h-screen flex-col items-start justify-start bg-[#0B1D32]`}>
         <Nav />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

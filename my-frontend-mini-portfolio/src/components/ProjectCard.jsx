@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 export const ProjectCard = ({image, href, title, description, date, tech}) => {
   return (
     <Link
-        href={href}
+        href={`projectView/${href}`}
         className="relative group rounded-lg border-4 border-[#DF8601] transition-all text-[#362000] hover:scale-105"
         rel="noopener noreferrer"
     >
