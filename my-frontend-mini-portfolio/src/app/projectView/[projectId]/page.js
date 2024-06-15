@@ -4,19 +4,21 @@ import { useEffect } from 'react';
 import { Icon } from '@iconify/react';
 import Image from 'next/image'
 import { projectsData } from '../../../data/projectsData.js';
+import Button from '../../../components/Button/index.js';
 
 export default function Page({params}) {
   let projectData = projectsData.filter(project => project.href === params.projectId);
-  console.log(projectData)
 
   return (
-    <div className={'w-full h-full min-h-screen'}>
-      <main className={'flex flex-col items-start justify-start gap-4'}>
-        <div className="w-full bg-white opacity-50 border-0 min-h-[350px]">
+    <div className={'relative w-full h-full min-h-screen'}>
+      <BackNavButton link="/" />
+
+      <main className={'w-full container mx-auto h-full flex flex-row-reverse items-center justify-center gap-4 pt-[5em]'}>
+        <div className="w-full h-full bg-white opacity-50 border-0 max-w-[350px] min-h-[350px] rounded-lg">
             <Image
               src={projectData[0].image}
-              width={"100%"}
-              height={350}
+              width={200}
+              height={200}
               alt="Picture of the project"
               rounded-lg
             />
@@ -43,4 +45,12 @@ export default function Page({params}) {
       </main>
     </div>
   );
+}
+
+const BackNavButton = ({link}) => {
+  return (
+    <span className="absolute left-8 top-8 z-50">
+      <Button href={link} icon="ep:back" text={null} />
+    </span>
+  )
 }
